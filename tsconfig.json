@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "es2015", "es2017"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "outDir": "./dist", // Specify output directory
+    "rootDir": "./src" // Specify root directory of source files
+  },
+  "include": ["src", "globals.d.ts"],
+  "exclude": ["node_modules", "dist"] // Ensure output directory is excluded
+}
